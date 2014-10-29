@@ -1,0 +1,7 @@
+parameters:
+#    asp_sn.example.class: Asp\SNBundle\Example
+
+services:
+#    asp_sn.example:
+#        class: %asp_sn.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

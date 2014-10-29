@@ -1,0 +1,3 @@
+asp_sn_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AspSNBundle:Default:index }
