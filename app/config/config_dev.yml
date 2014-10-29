@@ -29,3 +29,9 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+# FOSUserBundle Configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: Asp\SNBundle\Entity\User
