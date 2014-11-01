@@ -1,0 +1,210 @@
+html{
+	background:#ffffe0;
+}
+
+body{
+	position:relative;
+	margin:0px auto 0 auto;
+	color:white;
+	font-size: 20px;
+	width:1030px;
+	background:#c1cdcd;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	border-collapse: separate;
+	padding-bottom: 50px;
+	padding: 0;
+}
+
+table{
+	border-spacing:5px;
+	padding:0;
+	margin:0;
+	margin-left: -5px;
+}
+
+.main-table{
+	margin:0 auto;
+	padding:10px;
+	border-collapse:collapse;
+}
+
+td{
+	margin:0;
+	padding:0;
+}
+
+tr{
+	margin:0;
+	padding:0;
+}
+
+div.landing{
+	width:743px;
+	text-align: center;
+
+}
+
+td.left{
+	width:207px;
+	padding:10px 0 5px 0;
+}
+
+td.empty{
+	width:50px;
+}
+
+td.right{
+	width:743px;
+	padding:10px 0 5px 0;
+}
+
+tr.content .left{
+	position:absolute;
+	margin-top: -16px;
+}
+
+.content .left .button:first-child{
+	margin-top: 20px;
+}
+
+table.topbutts{
+	margin-left: 0px;
+	border-collapse: collapse;
+}
+
+.topbutts td + td div{
+	margin-left:10px;
+}
+
+table.friends{
+	margin-top:40px;
+	margin-bottom: 86px;
+	margin-right: -5px;
+	border-collapse: separate;
+}
+
+.friends td{
+	background:blue;
+	margin-right: -15px;
+	width:101px;
+	height:101px;
+	background:#2f4f4f;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	border-collapse: separate;
+}
+
+.friends .td-friends{
+	height:80px;
+}
+
+table.minibar{
+	border-collapse: separate;
+	margin-right: -5px;
+	margin-bottom: 20px;
+}
+
+.minibar td{
+	width:101px;
+	height:80px;
+	background:#cdb79e;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	border-collapse: separate;
+}
+
+table.cards{
+	border-collapse: separate;
+}
+
+.cards td{
+	background:blue;
+	width:236px;
+	height:236px;
+	background:#8b7d7b;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	border-collapse: separate;
+}
+
+.cards td.td-cards{
+	height:50px;
+}
+
+.button{
+	margin: 0;
+	padding: 0;
+	width:207px;
+	height:80px;
+	background:#cdb79e;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	border-collapse: separate;
+}
+a{
+	text-decoration: none;
+}
+
+.button a{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+.right .button{
+	width:354px;
+}
+
+.content .left .button{
+	margin-bottom: 0px;
+}
+
+div.gotoreg{
+	margin-top: 10px;
+}
+
+.gotoreg a{
+	font-size: 18px;
+	color: white;
+}
+.gotoreg a:hover{
+	color:white;
+}
+
+label{
+	font-size: 16px;
+}
+
+input[type="text"]{
+	background: white;
+	border:1px solid white;
+	font-size:13px;
+	width:160px;
+    height:15px;
+}
+
+input[type="text"]:hover{
+	border:1px solid #ff9933;
+}
+input[type="password"]{
+	background: white;
+	border:1px solid white;
+	font-size:14px;
+	width:160px;
+    height:15px;
+}
+
+input[type="password"]:hover{
+	border:1px solid #3366cc;
+}
+
+
+input[type="submit"]{
+    display:inline-block;
+    background: #cdb79e;
+	border:1px solid #cdb79e;
+    margin-top:10px;
+    width:160px;
+    height:30px;
+    font-size: 16px;
+    border-radius: 0px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+	border-collapse: separate;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+  <title>{% block title %}Testdrive{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+ </head>
+ <body>
+ 	<table class="main-table">
+ 		<tr class="header">
+ 			<td class="left">
+ 				<div class="logo button"></div>
+ 			</td>
+ 			<td class="empty"></td>
+ 			<td class="right">
+ 				{% block topbutts %} {% endblock %}
+ 			</td>
+ 		</tr>
+ 		<tr class="content">
+ 			<td class="left">
+	 			{% block sidebar %} {% endblock %}
+ 			</td>
+ 			<td class="empty"></td>
+ 			<td class="right">
+ 				{% block content %} {% endblock %}
+ 			</td>
+ 		</tr>
+ 		<tr class="footer">
+ 			<td class="left"></td>
+ 			<td class="empty"></td>
+ 			<td class="right">
+ 				<table class="topbutts">
+ 					<tr>
+ 						<td></td>
+ 						<td></td>
+ 					</tr>
+ 				</table>
+ 			</td>
+ 		</tr>
+ 	</table>
+ </body>
+</html>

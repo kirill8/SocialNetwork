@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+  <title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/profile.css">
+ </head>
+ <body>
+ 	<table class="main-table">
+ 		<tr class="header">
+ 			<td class="left">
+ 				<div class="logo button"></div>
+ 			</td>
+ 			<td class="empty"></td>
+ 			<td class="right">
+ 				<table class="topbutts">
+ 					<tr>
+ 						<td><div class="profile button"></div></td>
+ 						<td><div class="chat button"></div></td>
+ 					</tr>
+ 				</table>
+ 			</td>
+ 		</tr>
+ 		<tr class="content">
+ 			<td class="left">
+	 			<div class="messages button"></div>
+	 				<div class="music button"></div>
+ 					<div class="addcard button"></div>
+	 				<table class="friends">
+			            <tr><td></td><td></td></tr>
+			            <tr><td></td><td></td></tr>
+			            <tr><td colspan="2" class="td-friends"></td></tr>
+			        </table>
+			        <table class="minibar">
+ 						<tr>
+ 							<td></td>
+ 							<td></td>
+ 						</tr>
+ 					</table>
+ 			</td>
+ 			<td class="empty"></td>
+ 			<td class="right">
+ 				<table class="userinfo">
+ 					<tr>
+ 						<td class="avatarinfo">
+ 							<div class="avatar"></div>
+ 						</td>
+ 						<td class="shortinfo">
+ 							<div class="username">{% block name %}{% endblock %} {% block surname %} {% endblock %}</div>
+ 							<div class="actualshortinfo"></div>
+ 						</td>
+ 					</tr>
+ 					<tr><td class="fullinfo" colspan="2">
+ 							<a href="javascript:sh()">Подробнее... (или любая другая надпись на ссылке, при клике на которую показывается весь скрытый изначально текст)</a><br />
+							<div id="info" style="padding-top:15px;">
+							ЗДЕСЬ ПИШЕМ ИЛИ ВСТАВЛЯЕМ ТЕКСТ, КОТОРЫЙ ДОЛЖЕН БЫТЬ ПО УМОЛЧАНИЮ СКРЫТЫМ И ПОКАЗЫВАТЬСЯ (РАСКРЫВАТЬСЯ) ТОЛЬКО ПРИ КЛИКЕ НА ССЫЛКУ "ПОДРОБНЕЕ", СО ВСЕМИ НУЖНЫМИ ТЕГАМИ.
+							</div>
+							<script type="text/javascript">
+							sh();
+							function sh() {
+							    obj = document.getElementById("info");
+							    if( obj.style.display == "none" ) { obj.style.display = "block"; } else { obj.style.display = "none"; }
+							}
+							</script>
+ 						</td>
+ 					</tr>
+ 				</table>
+ 				<table class="album">
+                  <tr><td></td><td></td><td></td><td rowspan="2" class="strelka"></td></tr>
+                  <tr><td></td><td></td><td></td></tr>
+                  <tr><td colspan="4" class="albumlink"></td></tr>
+                </table>
+ 			</td>
+ 		</tr>
+ 		<tr class="footer">
+ 			<td class="left"></td>
+ 			<td class="empty"></td>
+ 			<td class="right"></td>
+ 		</tr>
+ 	</table>
+ </body>
+</html>
